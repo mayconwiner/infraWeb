@@ -1,4 +1,4 @@
-# Infra Estutura para Sistemas Web
+# Infraestutura para Sistemas Web
 
 
 ## Instalação do Servidor Apache2
@@ -15,9 +15,10 @@ aptitude install apache2
 `
 
 ## Ajustando o Firewall (caso necessario)
+Para verificar os perfis de aplicativos disponíveis com ufw
 
 `  
-ufw app listapache.jpeg
+ufw app list
 `  
 `  
 ufw allow apache2
@@ -32,7 +33,10 @@ ufw status
 ## Verificando se o serviço do apache esta em perfeito funcionamento(Active (Running))
 
 `  
-service apache2 status ou systemctl status apache2
+service apache2 status 
+ou
+
+systemctl status apache2
 `  
 ## Atribua as permisses a propriedade do diretorio
 `
@@ -40,7 +44,7 @@ chown -R $USER:$USER /var/www/`
 `
 chmod 777 -R /var/www/
 `
-apache.jpeg
+
 ## logo apos copie o projeto para o diretorio /var/www/html
 logo apos as configurações digite no terminal 
 `  
