@@ -6,14 +6,19 @@
 ![asdf](oi.jpeg)
 
 Para instalar o apache 2 digite a seguinte linha linha de comando 
-`
-apt update
+
+`apt update
 `
 
 `
 aptitude install apache2
 `
 
+## Os arquivos de configuração se encontram no diretório
+
+`
+/etc/apache2/
+`
 ## Ajustando o Firewall (caso necessario)
 Para verificar os perfis de aplicativos disponíveis com ufw
 
@@ -50,6 +55,11 @@ logo apos as configurações digite no terminal
 `  
 servide apache2 restart
 `  
+
+## Para adicionar um arquivo html ao servidor utilize o caminho 
+` /var/www/html
+`
+
 abra o navegador 
 
 digite na barra de endereço: 
