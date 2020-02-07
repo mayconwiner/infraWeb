@@ -13,7 +13,7 @@ aptitude install apache2
 `
 ## Ajustando o Firewall (caso necessario)#
 `  
-ufw app list
+ufw app listapache.jpeg
 `  
 `  
 ufw allow apache2
@@ -31,7 +31,7 @@ chown -R $USER:$USER /var/www/`
 `
 chmod 777 -R /var/www/
 `
-
+apache.jpeg
 ## logo apos copie o projeto para o diretorio /var/www/html
 logo apos as configurações digite no terminal 
 `  
@@ -40,6 +40,6 @@ servide apache2 restart
 abra o navegador 
 digite na barra de endereço: localhost
 
-![asdf](apache.jpeg)
+![asdf](apache.png)
 seu apache esta configurado corretamente 
 
