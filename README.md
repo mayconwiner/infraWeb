@@ -68,7 +68,7 @@ localhost
 
 ![asdf](apache.png)
 
-seu apache esta configurado corretamente !
+seu servidor apache esta configurado corretamente !
 
-> Maycon Douglas
+> Maycon Douglas Oliveira da Silva
 
