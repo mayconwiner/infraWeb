@@ -21,7 +21,7 @@ ufw allow apache2
 ## verificando alteraçes
 ufw status
 
-##Verificando se o serviço do apache esta em perfeito funcionamento(Active (Running))
+## Verificando se o serviço do apache esta em perfeito funcionamento(Active (Running))
 `  
 service apache2 status ou systemctl status apache2
 `  
@@ -38,8 +38,8 @@ logo apos as configurações digite no terminal
 servide apache2 restart
 `  
 abra o navegador 
-digite na barra de endereço: localhost
 
+digite na barra de endereço: localhost
 ![asdf](apache.png)
 seu apache esta configurado corretamente 
 
